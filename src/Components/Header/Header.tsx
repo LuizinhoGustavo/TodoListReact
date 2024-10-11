@@ -2,15 +2,15 @@ import { Moon } from "lucide-react"
 
 export default function Header() {
     return (
-        <div className="pt-8 px-8">
+        <div>
             <div className="flex justify-between pb-5">
-                <h1 className="text-xl text-center pl-5">Lista de Tarefas</h1>
-                <button className="pr-5">
+                <h1 className="text-xl text-center ">Lista de Tarefas</h1>
+                <button className="">
                     <Moon fill="#000" size={20} color="#000" />
                 </button>
             </div>
 
-            <div className="flex px-5 gap-3">
+            <div className="flex gap-3">
                 <button className="w-10 h-10 rounded-full border border-black hover:bg-slate-50 hover:transition-all">
                     +
                 </button>
